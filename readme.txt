@@ -1,3 +1,4 @@
+```javascript
 function sendToApiAi(sender,text){
     var request = api.textRequest(text, {
         sessionId: sender
@@ -12,3 +13,4 @@ function sendToApiAi(sender,text){
 
     request.end();
 }
+```
